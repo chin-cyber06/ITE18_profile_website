@@ -7,10 +7,10 @@ export const profile = {
   // then change this to '/profile.jpg'
   photo: '/avatar-placeholder.svg',
   intro:
-    'An Information Technology student who enjoys exploring technology, learning new things, and continuously improving both technical and personal skills. Passionate about discovering how technology works and creating meaningful digital experiences.',
-  welcomeTitle: 'Welcome to My Personal Space!',
+    'Driven by curiosity and a passion for technology, I am an IT student constantly learning, exploring, and growing. From discovering new technologies to developing practical skills, I strive to turn curiosity into knowledge and ideas into meaningful experiences.',
+  welcomeTitle: 'Welcome to my little corner of the web!',
   welcomeText:
-    'Get to know more about me, my academic journey, skills, interests, and the things that inspire me. This is where I share a little about who I am and my journey as an aspiring IT professional.',
+    'Get to know me, explore my journey, and discover the skills, interests, and experiences that continue to shape who I am',
   about:
     'An Information Technology student who values continuous learning, personal growth, and meaningful experiences. I consider myself organized, dedicated, adaptable, and always willing to explore new opportunities to improve myself.',
   values: ['Faith', 'Honesty', 'Loyalty', 'Dedication', 'Family'],
