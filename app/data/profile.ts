@@ -1,10 +1,7 @@
-// Edit this file to update your personal content in one place.
-
 export const profile = {
   fullName: 'Ermi Shayne P. Cagadas',
   displayName: 'ERMI SHAYNE P. CAGADAS',
-  // To use your real photo: put it in /public (e.g. public/profile.jpg)
-  // then change this to '/profile.jpg'
+
   photo: '/avatar-placeholder.svg',
   intro:
     'Driven by curiosity and a passion for technology, I am an IT student constantly learning, exploring, and growing. From discovering new technologies to developing practical skills, I strive to turn curiosity into knowledge and ideas into meaningful experiences.',

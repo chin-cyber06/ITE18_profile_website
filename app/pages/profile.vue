@@ -6,7 +6,6 @@ useHead({ title: 'Profile | Ermi Shayne P. Cagadas' })
 
 <template>
   <div class="mx-auto max-w-6xl px-5 pb-24 pt-12 sm:pt-16">
-    <!-- Personal: photo, description, values, motto -->
     <section class="grid items-end gap-10 md:grid-cols-[20rem_1fr] md:gap-16">
       <div class="mx-auto w-full max-w-[18rem] md:max-w-none">
         <ProfileAvatar :src="p.photo" alt="Profile photo" />
@@ -31,7 +30,6 @@ useHead({ title: 'Profile | Ermi Shayne P. Cagadas' })
       </div>
     </section>
 
-    <!-- Education -->
     <ProfileSection id="education" title="Education" class="mt-0!">
       <p class="font-display text-2xl font-bold sm:text-3xl">{{ p.education.school }}</p>
       <p class="mt-1 text-ash">{{ p.education.college }}</p>
@@ -42,7 +40,6 @@ useHead({ title: 'Profile | Ermi Shayne P. Cagadas' })
       <p class="mt-6 max-w-2xl leading-relaxed text-bone/80">{{ p.education.story }}</p>
     </ProfileSection>
 
-    <!-- Skills -->
     <ProfileSection id="skills" title="Skills and Interests">
       <p class="max-w-2xl italic text-ash">{{ p.skillsNote }}</p>
       <div class="mt-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
@@ -52,7 +49,6 @@ useHead({ title: 'Profile | Ermi Shayne P. Cagadas' })
       </div>
     </ProfileSection>
 
-    <!-- Hobbies -->
     <ProfileSection id="hobbies" title="Hobbies and Personal Interests">
       <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         <HobbyCard v-for="h in p.hobbies" :key="h.title" v-bind="h" />
